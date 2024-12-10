@@ -34,7 +34,7 @@ Envia un missatge mostran informació sobre un producte a traves del seu identif
 `Nom`, `ID`, `Imatge Producte`, `Preu`, `Origen`, `Ingredients`
 
 ### addcart
-Crea un DataFrame amb informació del producte (`Id Producte`, `Nom Producte`, `Preu Unitat`) junt amb la quantitat que s'afegeix al carret per calcular el preu total de cada producte (`Quantitat`, `Preu Total`).  
+Crea un DataFrame (`Id Producte`, `Nom Producte`, `Quantitat`, `Preu Unitat`, `Preu Total`) amb informació del producte (`ID`, `Nom`, `Preu`) junt amb la quantitat que s'afegeix al carret per calcular el preu total de cada producte.  
 Si ja s'havia afegit un producte abans, carregarà el fitxer anterior i afegir-la el nou producte, també si s'afegeix un producte que ja estava, només sumarà la quantitat afegida.
 
 ### showcart
