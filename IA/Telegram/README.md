@@ -1,6 +1,6 @@
-# Bot Telegram
-Objectiu: Creacio d'un BOT molt simple que sigui capaç de respondre a algunes de les accions que li demanem amb Python
-Tema: Interactua amb l'API de Mercadona i gestionar productes en un carret de compra. El bot permet als usuaris cercar productes per ID, afegir-los al carret i veure el contingut del carret.
+# Bot Telegram  
+Objectiu: Creacio d'un BOT molt simple que sigui capaç de respondre a algunes de les accions que li demanem amb Python  
+Tema: Interactua amb l'API de Mercadona i gestionar productes en un carret de compra. El bot permet als usuaris cercar productes per ID, afegir-los al carret i veure el contingut del carret.  
 Característiques
   **/help**: Mostra una llista de comandes disponibles.
   **/showprd [ID]**: Mostra la informació d'un producte de Mercadona, donada la seva ID (per exemple, /showprd 4240).
