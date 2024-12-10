@@ -15,7 +15,7 @@ El bot interactua amb l'API de Mercadona i permet gestionar productes en un carr
 
 ## Requisits
 
-- **Python 3.12.3 o superior**
+- **Provat en Python 3.12.7**
   
 ### Llibreries necessàries:
 
@@ -30,11 +30,11 @@ El bot interactua amb l'API de Mercadona i permet gestionar productes en un carr
 Envia un missatge amb una benvinguda i la llista de comandes disponibles 
 
 ### showprd
-Envia un missatge mostran informació sobre un producte a traves del seu identificador: 
+Envia un missatge mostran informació sobre un producte a traves del seu identificador:  
 `Nom`, `ID`, `Imatge Producte`, `Preu`, `Origen`, `Ingredients`
 
 ### addcart
-Crea un fitxer JSON amb informació del producte junt amb la quantitat que s'afegeix al carret.  
+Crea un DataFrame amb informació del producte (`Id Producte`, `Nom Producte`, `Preu Unitat`) junt amb la quantitat que s'afegeix al carret per calcular el preu total de cada producte (`Quantitat`, `Preu Total`).  
 Si ja s'havia afegit un producte abans, carregarà el fitxer anterior i afegir-la el nou producte, també si s'afegeix un producte que ja estava, només sumarà la quantitat afegida.
 
 ### showcart
