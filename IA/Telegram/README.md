@@ -22,4 +22,20 @@ El bot interactua amb l'API de Mercadona i permet gestionar productes en un carr
 - `python-telegram-bot`: Per interactuar amb l'API de Telegram.
 - `pandas`: Per gestionar les dades del carret.
 - `requests`: Per fer peticions a l'API de Mercadona.
-- `python-dotenv`: Per carregar el token des d'un fitxer `.env`.
+- `python-dotenv`: Per carregar el token del Bot des d'un fitxer `.env`.
+
+## Funcions
+
+### help
+Envia un missatge amb una benvinguda i la llista de comandes disponibles 
+
+### showprd
+Envia un missatge mostran informació sobre un producte a traves del seu identificador: 
+`Nom`, `ID`, `Imatge Producte`, `Preu`, `Origen`, `Ingredients`
+
+### addcart
+Crea un fitxer JSON amb informació del producte junt amb la quantitat que s'afegeix al carret,   
+si ja s'habia afegit un producte abans, carregara el fitxer anterior i afegirla el nou producte
+
+### showcart
+
