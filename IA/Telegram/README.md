@@ -30,7 +30,10 @@ El bot interactua amb l'API de Mercadona i permet gestionar productes en un carr
 Enviar un missatge amb una benvinguda i la llista de comandes disponibles 
 
 ### /showprd
-Enviar un missatge mostran informació sobre un producte a traves del seu identificador:  
+Enviar un missatge mostran informació sobre un producte a traves del seu identificador dintre de la informació consultada a la API de Mercadona amb les funcions `get_data_from_api`, `get_products_url`
+ - `get_data_from_api`: Consultar a la url donada de get_products_url i retorna la informacio en format JSON.  
+ - `get_products_url`: Retorna la url de la API amb el identificador del producte declarat.  
+Informacio a mostrar:  
 `Nom`, `ID`, `Imatge Producte`, `Preu`, `Origen`, `Ingredients`
 
 ### /addcart
