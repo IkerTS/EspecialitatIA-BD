@@ -35,7 +35,7 @@ Envia un missatge mostran informació sobre un producte a traves del seu identif
 
 ### addcart
 Crea un DataFrame (`Id Producte`, `Nom Producte`, `Quantitat`, `Preu Unitat`, `Preu Total`) amb informació del producte (`ID`, `Nom`, `Preu`) junt amb la quantitat que s'afegeix 
-al carret per calcular el preu total de cada producte i guardar-ho en format JSON orientat a columnes:
+al carret per calcular el preu total de cada producte i guardar-ho en format JSON orientat a columnes:  
 `col1: {fila0: valor, fila1: valor}, col2: {fila0: valor, fila1: valor}`.    
 Si ja s'havia afegit un producte abans, carregarà el fitxer anterior i afegir-la el nou producte, també si s'afegeix un producte que ja estava, només sumarà la quantitat afegida.
 
