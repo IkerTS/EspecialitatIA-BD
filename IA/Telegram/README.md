@@ -26,18 +26,19 @@ El bot interactua amb l'API de Mercadona i permet gestionar productes en un carr
 
 ## Funcions
 
-### help
+### /help
 Envia un missatge amb una benvinguda i la llista de comandes disponibles 
 
-### showprd
+### /showprd
 Envia un missatge mostran informació sobre un producte a traves del seu identificador:  
 `Nom`, `ID`, `Imatge Producte`, `Preu`, `Origen`, `Ingredients`
 
-### addcart
+### /addcart
 Crea un DataFrame (`Id Producte`, `Nom Producte`, `Quantitat`, `Preu Unitat`, `Preu Total`) amb informació del producte (`ID`, `Nom`, `Preu`) junt amb la quantitat que s'afegeix
-al carret per calcular el preu total de cada producte i guardar-ho en format JSON orientat a columnes:  
+al carret per calcular el preu total de cada producte i guardar-ho en format JSON `cart-username-chatid.json` orientat a columnes:  
 `col1: {fila0: valor, fila1: valor}, col2: {fila0: valor, fila1: valor}`.  
+
 Si ja s'havia afegit un producte abans, carregarà el fitxer anterior i afegir el nou producte, també si s'afegeix un producte que ja estava, només sumarà la quantitat afegida.
 
-### showcart
-
+### /showcart
+Enviar un missatge amb format taula amb el carret dels productes, **ha d'existir el fitxer on es guarda els productes**, en la taula també ens donara el preu total del carret.
