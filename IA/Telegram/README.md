@@ -34,8 +34,8 @@ Envia un missatge mostran informació sobre un producte a traves del seu identif
 `Nom`, `ID`, `Imatge Producte`, `Preu`, `Origen`, `Ingredients`
 
 ### addcart
-Crea un fitxer JSON amb informació del producte junt amb la quantitat que s'afegeix al carret,   
-si ja s'habia afegit un producte abans, carregara el fitxer anterior i afegirla el nou producte
+Crea un fitxer JSON amb informació del producte junt amb la quantitat que s'afegeix al carret.  
+Si ja s'havia afegit un producte abans, carregarà el fitxer anterior i afegir-la el nou producte, també si s'afegeix un producte que ja estava, només sumarà la quantitat afegida.
 
 ### showcart
 
