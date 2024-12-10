@@ -48,4 +48,4 @@ Enviar un missatge amb format taula amb el carret dels productes on també ens d
 **Ha d'existir el fitxer on es guarda els productes**.
 
 ## Implementacio Extra  
-Una funcio extra que podria estar molt interesant com un generador de contrasenyas, o un generador de rutes de mapas amb un formulari
+Es poden implementar moltes funcions que podria estar molt interessant com un generador de contrasenyes, o un generador de rutes de mapes amb un formulari.
