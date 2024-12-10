@@ -46,3 +46,6 @@ Si ja s'havia afegit un producte abans, carregarà el fitxer anterior i afegir e
 ### /showcart
 Enviar un missatge amb format taula amb el carret dels productes on també ens donarà el preu total del carret.  
 **Ha d'existir el fitxer on es guarda els productes**.
+
+## Implementacio Extra  
+Una funcio extra que podria estar molt interesant com un generador de contrasenyas, o un generador de rutes de mapas amb un formulari
